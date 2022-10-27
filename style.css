@@ -10,30 +10,31 @@
     padding: 16px 8px;
     font-size: 28px;
 }
+.conatiner input{
+    width: 84%;
+    padding: 30px;
+}
 .buttons{
     display: grid;
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.buttons div{
+button{
+    width: 60%;
+    height: 60px;
+    margin: 20px;
+    border-radius: 30px;
     border-top: 1px solid gray;
     border-right: 1px solid gray;
-
-}
-.button{
     border: 0.5px solid gray;
-    line-height: 100px;
     text-align: center;
-    font-size: 28px;
+    font-size: px;
     cursor: pointer;
 }
-.button:hover{
-    background-color: black;
-    color: white;
-    transition: 0.5s ease-in-out;
-}
 #equal{
-    background-color: blueviolet;
-    color: white;
+    background-color: gold;
+}
+ button{
+    background-color: gold;
 }
